@@ -1,0 +1,60 @@
+p,div,td,button{font-family: 'Noto Sans KR', sans-serif;}
+p>a{text-decoration: none; color: black;}
+table{border-spacing: 0; border: 1px solid #dbdbdb; width: 101%;}
+td{border: 1px solid #dbdbdb;}
+hr{width: 90%; margin-left: -13px;}
+body{margin: 0;}
+#wrapper{width: 100%;  height: 800px; background-color: #fafafa; box-sizing: border-box;}
+#wrapper>div{ margin: 0;box-sizing: border-box;}
+#wrapper>div>div{border-right: 1px solid #dbdbdb;border-left: 1px solid #dbdbdb; margin: 0; box-sizing: border-box; height: 1006px;border-bottom: 1px solid #dbdbdb;}
+#header{ width: 100%; height: 40px; border-bottom: 0.5px solid #dbdbdb;}
+#content{width: 100%; height: 890px; text-align: center;}
+#inContent{width: 1200px; height: 890px; display: inline-block; background-color: white;}
+#inContent>div{float: left;}
+#projectContent{display: none;}
+#aboutContent{display: none;}
+#L_content{width: 50%; height: 100%;}
+#R_content{width: 50%; height: 100%;}
+#nothing{width: 100%; height: 90px;}
+#topic{margin-top: -90px;writing-mode: vertical-rl; text-align: center; font-size: 70px; margin: 0; font-weight: bold; font-family: 'Noto Sans KR', sans-serif; margin-left: 25px;}
+#topic2{text-align: right; font-size: 25px; margin: 0; font-weight: lighter; color: #808080; margin-left: 108px; margin-right: 20px;}
+#menubar{width: 100%; height: 40px;}
+#menubar>ul{list-style: none; text-align: center;}
+#menubar>ul>li{display: inline-block; margin-left: 4%; margin-right: 10%; color: #808080; cursor: pointer;}
+#sideImg{width: 100%; height: 413px; background-color: cornflowerblue; margin-top: 40px;}
+#innerContent{border-left: 1px solid #dbdbdb; width: 100%; height: 80%; text-align: center;}
+#innerContent>div{overflow-y: scroll; height: 890px; }
+#innerContent>div::-webkit-scrollbar{display: none;}
+#innerContent>div>div{border: 0.5px solid #dbdbdb; width: 80%; display: inline-block; margin-top: 10px; margin-bottom: 10px; box-shadow: 1px 1px 12px 3px lightgray;}
+#profileCon1>p{text-align: left; margin-left: 50px; margin-right: 40px;}
+#profileCon2>p{text-align: left; margin-left: 50px; margin-right: 40px;}
+#projectCon1>p{text-align: left; margin-left: 50px; margin-right: 40px;}
+#projectCon2>p{text-align: left; margin-left: 50px; margin-right: 40px;}
+#aboutCon1>p{text-align: left; margin-left: 50px; margin-right: 40px;}
+#profileCon1{height: 1050px;}
+#profileCon2{height: 900px;}
+#projectCon1{height: 878px;}
+#projectCon2{height: 878px;}
+#aboutCon1{height: 290px;}
+#profile{border: 2px solid #dbdbdb; border-radius: 50%; width: 200px; height: 200px; display: flex; margin-left: 140px; margin-top: 40px;}
+#profileImg{border: 0.5px solid #dbdbdb; border-radius: 50%; width: 190px; height: 190px; margin: auto;}
+#info{font-size: 20px;float: left; margin-left: 20px; color: #808080; font-family: 'Noto Sans KR', sans-serif;}
+.title{font-weight: bold; font-size: 20px;}
+.name{font-weight: 600;}
+.date{font-size: 13px; color: gray;}
+.aboutTitle{font-weight: lighter;}
+.boxes{border: 2px solid #dbdbdb; width: 100px; float: left; margin-left: 13px;height: 48px;}
+.s{line-height: 46px;}
+.detailBtn{width: 100%; height: 35px; margin-top: 20px; background-color: cornflowerblue; border: none;color: white; font-size: 15px;}
+.modal {display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+.modal-content {background-color: #fefefe; margin: 4% auto; border: 1px solid #888; width: 80%; height: 520px;}
+.close {color: #aaa; margin-top: 1.5px; float: right; font-size: 14px; font-weight: bold; margin-right: 5px;}
+.close:hover,.close:focus {color: black; text-decoration: none; cursor: pointer;}
+#mCon1{width: 100%; height: 5%; border-bottom: 0.5px solid #dbdbdb;}
+#mCon2{width: 100%; height: 95%; overflow-y: scroll; margin-left: 5%;}
+#mCon2::-webkit-scrollbar{display: none;}
+#mCon2>p{text-align: left;}
+.mImg{width: 90%; margin-left: -100px;}
+.mVideo{width: 90%; margin-left: -100px;}
+#btn1{margin-top: 36px;}
+#gitLink{font-size: 13px; color: gray;}
